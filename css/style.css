@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+/*variáveis*/
+:root {
+    --primary-collor: #39628b;
+    --primary-collor-dark: #01274d;
+    --secondary-collor: rgb(#3da396);
+
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 2.5%;
+    outline: 0;
+
+}
+/*configuração geral do crpo*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-collor);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #F5F5F5;
+    padding: 20px;
+}
+/*verificação de tabela*/
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-collor);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-collor);
+    color:#F9F8F6;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor:pointer;
+}
+/*button de envio*/
+form button:hover {
+    background: var(--primary-collor-dark);
+}
+/*button de envio*/
+form button:active {
+    background: #4992bd;
+}
+
+
+.paragrafo-resultado{
+    background-color: #398b6c;
+    padding:10px 20px;
+}
+
+.bad {
+    background-color: #e25f5b;
+    padding:10px 20px;
+}
