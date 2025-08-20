@@ -1,4 +1,4 @@
-##Calculadora de IMC - Projeto de Conclusão de Curso
+#Calculadora de IMC - Projeto de Conclusão de Curso
 
 Bem-vindo ao repositório da Calculadora de IMC, um projeto desenvolvido como parte de um curso da Udemy focado em JavaScript. O objetivo principal foi aplicar na prática os conceitos fundamentais da linguagem para criar uma ferramenta funcional e educativa.
 
